@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GesDoc.Web", "GesDoc.Web\GesDoc.Web.csproj", "{A3EDD13C-4F5B-4B84-BF70-9B035D8902C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GesDoc.Models", "Gesdoc.Models\GesDoc.Models.csproj", "{93CD99FB-9217-4C62-AA9A-5D5865C37234}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GesDoc.API", "GesDoc.API\GesDoc.API.csproj", "{E52A7B0B-BAE2-44D0-ABA4-58570D16B44A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GesDoc.Service", "GesDoc.Service\GesDoc.Service.csproj", "{B2FE2728-B92F-43D3-A0FF-2E89A0B34B7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GesDoc.AppService", "GesDoc.AppService\GesDoc.AppService.csproj", "{9CB6255F-FCE7-4816-9FFB-E664163115CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GesDoc.Repository", "GesDoc.Repository\GesDoc.Repository.csproj", "{B52CF50F-CF03-4C64-B0DE-4F9869DC8502}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3EDD13C-4F5B-4B84-BF70-9B035D8902C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3EDD13C-4F5B-4B84-BF70-9B035D8902C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3EDD13C-4F5B-4B84-BF70-9B035D8902C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3EDD13C-4F5B-4B84-BF70-9B035D8902C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93CD99FB-9217-4C62-AA9A-5D5865C37234}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93CD99FB-9217-4C62-AA9A-5D5865C37234}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93CD99FB-9217-4C62-AA9A-5D5865C37234}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93CD99FB-9217-4C62-AA9A-5D5865C37234}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E52A7B0B-BAE2-44D0-ABA4-58570D16B44A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E52A7B0B-BAE2-44D0-ABA4-58570D16B44A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E52A7B0B-BAE2-44D0-ABA4-58570D16B44A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E52A7B0B-BAE2-44D0-ABA4-58570D16B44A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2FE2728-B92F-43D3-A0FF-2E89A0B34B7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2FE2728-B92F-43D3-A0FF-2E89A0B34B7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2FE2728-B92F-43D3-A0FF-2E89A0B34B7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2FE2728-B92F-43D3-A0FF-2E89A0B34B7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CB6255F-FCE7-4816-9FFB-E664163115CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CB6255F-FCE7-4816-9FFB-E664163115CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CB6255F-FCE7-4816-9FFB-E664163115CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CB6255F-FCE7-4816-9FFB-E664163115CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B52CF50F-CF03-4C64-B0DE-4F9869DC8502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B52CF50F-CF03-4C64-B0DE-4F9869DC8502}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B52CF50F-CF03-4C64-B0DE-4F9869DC8502}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B52CF50F-CF03-4C64-B0DE-4F9869DC8502}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://mdalmeida79.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Gesdoc.Models\\GesDoc.Models.csproj
+		SccProjectName1 = Gesdoc.Models
+		SccLocalPath1 = Gesdoc.Models
+		SccProjectUniqueName2 = GesDoc.Web\\GesDoc.Web.csproj
+		SccProjectName2 = GesDoc.Web
+		SccLocalPath2 = GesDoc.Web
+		SccProjectUniqueName3 = GesDoc.API\\GesDoc.API.csproj
+		SccProjectName3 = GesDoc.API
+		SccLocalPath3 = GesDoc.API
+		SccProjectUniqueName4 = GesDoc.Service\\GesDoc.Service.csproj
+		SccProjectName4 = GesDoc.Service
+		SccLocalPath4 = GesDoc.Service
+		SccProjectUniqueName5 = GesDoc.AppService\\GesDoc.AppService.csproj
+		SccProjectName5 = GesDoc.AppService
+		SccLocalPath5 = GesDoc.AppService
+		SccProjectUniqueName6 = GesDoc.Repository\\GesDoc.Repository.csproj
+		SccProjectName6 = GesDoc.Repository
+		SccLocalPath6 = GesDoc.Repository
+	EndGlobalSection
+EndGlobal

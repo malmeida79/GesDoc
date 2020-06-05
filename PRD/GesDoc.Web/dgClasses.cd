@@ -1,0 +1,597 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GesDoc.Web.Services.Arquivos" Collapsed="true">
+    <Position X="29" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgBAAACAAigBAAAAAAAAACAIAEAAAAgAIA=</HashCode>
+      <FileName>Services\Arquivos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Web.Services.Criptografia" Collapsed="true">
+    <Position X="29" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\Criptografia.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Web.Services.Emails" Collapsed="true">
+    <Position X="22" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\Emails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Web.Services.Exports" Collapsed="true">
+    <Position X="30.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAgAAAAAAAAAAAAAAICAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Services\Exports.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Web.Services.Extensoes" Collapsed="true">
+    <Position X="32.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAACABAAAAgAAAAAAAAAAAAAAAAAAEAAgAAA=</HashCode>
+      <FileName>Services\Extensoes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Web.Services.HelperPages" Collapsed="true">
+    <Position X="30.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Services\HelperPages.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Web.Services.Log" Collapsed="true">
+    <Position X="32.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAABAAIBgAAAoAAAQAAA=</HashCode>
+      <FileName>Services\Log.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Web.Services.MapeamentoPaths" Collapsed="true">
+    <Position X="23.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQABAAQAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\MapeamentoPaths.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Web.Services.Mensagens" Collapsed="true">
+    <Position X="25.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAQAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Services\Mensagens.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Web.Services.PDFs" Collapsed="true">
+    <Position X="30.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\PDFs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Web.Services.SQLBase" Collapsed="true">
+    <Position X="27.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAIACgAAEAAAgQAAAAAggAAABJAAIAAAAAMIABAEQg=</HashCode>
+      <FileName>Services\SQLBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Web.Services.Tratamentos" Collapsed="true">
+    <Position X="32.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAQAAAAABAAAAAAAgAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Services\Tratamentos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Web.Services.Validacoes" Collapsed="true">
+    <Position X="29" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAgAAAAAAAAAAAAAAUAgAgAQAEAAAAQAA=</HashCode>
+      <FileName>Services\Validacoes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Web.Infraestructure.Ambiente" Collapsed="true">
+    <Position X="27.25" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="GesDoc.Web.Infraestructure.Ambiente.BotoesBarra" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Infraestructure\Ambiente.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="GesDoc.Web.Infraestructure.Ambiente.TipoPasta" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Infraestructure\Ambiente.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAEAAMAACAAAEAMCAAAAAABAAACAQAAQQAEEAAAAAAA=</HashCode>
+      <FileName>Infraestructure\Ambiente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Web.Infraestructure.ControleGeral" Collapsed="true">
+    <Position X="27.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAgAAAAAAA=</HashCode>
+      <FileName>Infraestructure\ControleGeral.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Web.Infraestructure.MontaMenu" Collapsed="true">
+    <Position X="27.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAIAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infraestructure\MontaMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Models.Acessos" Collapsed="true">
+    <Position X="22" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAQAgAAIAA=</HashCode>
+      <FileName>Domain\Acessos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Models.AcessosGrupos">
+    <Position X="16.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IEAAAAQAAAABAAAEAQAQEAAAAEAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Domain\AcessosGrupos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Models.AcessosGrupoUsuario">
+    <Position X="16.5" Y="9.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\AcessosGruposUsuario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Models.Bairro">
+    <Position X="10.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Bairro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Models.Cidade">
+    <Position X="10.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Cidade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Models.Cliente">
+    <Position X="13" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAAAAEAAAAAAAAAAIAAAAAAAIAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Domain\Cliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Models.Contatos" Collapsed="true">
+    <Position X="23.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAgCAAAAAAAAAAQAABAAAAAQAAAAAEAAEgAAA=</HashCode>
+      <FileName>Domain\Contatos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Models.Departamentos">
+    <Position X="16.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAEQAAABA=</HashCode>
+      <FileName>Domain\Departamento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Models.Endereco">
+    <Position X="10.5" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAIABAAAAAAgAAAEA=</HashCode>
+      <FileName>Domain\Endereco.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Models.EnderecoCliente">
+    <Position X="19.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAIAACAQAAAAAIAAAhAAAARAAAAACgAhAEA=</HashCode>
+      <FileName>Domain\EnderecoCliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Models.Equipamento">
+    <Position X="19.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAgAAJEAAAAAAAAAABAAAAAAAEAAAAAAAAkgAAAgAEA=</HashCode>
+      <FileName>Domain\Equipamento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Models.Estado">
+    <Position X="10.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAIAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Estado.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Models.Funcionalidades">
+    <Position X="16.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAIAAAQAAAAAAAIAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Domain\Funcionalidades.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Models.GruposAcesso">
+    <Position X="10.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Domain\GruposAcesso.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Models.GruposClientes">
+    <Position X="13" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\GruposClientes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Models.GruposUsuarioAcesso">
+    <Position X="10.5" Y="5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\GruposUsuarioAcesso.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Models.Help" Collapsed="true">
+    <Position X="27.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAEAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Domain\Help.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Models.Logradouro" Collapsed="true">
+    <Position X="34.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Domain\Logradouro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Models.Pais">
+    <Position X="10.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Pais.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Models.Permissoes" Collapsed="true">
+    <Position X="32.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAEAAAEAAAAAAAAAAAAAAAIACAQAAA=</HashCode>
+      <FileName>Domain\Permissoes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Models.Recados" Collapsed="true">
+    <Position X="34.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAQAAAAgCAAgAAAAAAEAA=</HashCode>
+      <FileName>Domain\Recados.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Models.Salas">
+    <Position X="16.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Domain\Salas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Models.Setores">
+    <Position X="16.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgEAgSAAAAAAAAEAIAAAAAAAAAAAAAQAAAAAAAgAAA=</HashCode>
+      <FileName>Domain\Setores.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Models.TipoContato" Collapsed="true">
+    <Position X="29" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Domain\TipoContato.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Models.TipoDocumento" Collapsed="true">
+    <Position X="32.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Domain\TipoDocumento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Models.TipoEndereco">
+    <Position X="19.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Domain\TipoEndereco.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Models.TipoEquipamento">
+    <Position X="19.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Domain\TipoEquipamento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Models.TipoRecado" Collapsed="true">
+    <Position X="25.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\TipoRecado.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Models.TipoServico" Collapsed="true">
+    <Position X="29" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\TipoServico.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Models.Usuario">
+    <Position X="13.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAEAAAEIAgAAAgIAAAEAAAAAQCACCEACAIEAA=</HashCode>
+      <FileName>Domain\Usuario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Models.UsuarioGrupoCliente" Collapsed="true">
+    <Position X="22" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAEAAQAAAAAAAAGAAAQAAAACAAAAAAAAA=</HashCode>
+      <FileName>Domain\UsuarioGrupoCliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Models.UsuarioLogado">
+    <Position X="13.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAACAQAAIAAAAgCAAEAEAAAAgAA=</HashCode>
+      <FileName>Domain\UsuarioLogado.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Models.UsuarioOnLine" Collapsed="true">
+    <Position X="25.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAQIAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\UsuarioOnLine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Web.Controls.ButtonBar" Collapsed="true">
+    <Position X="32.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAhCXhQBQMASMoBCCgAAg4oJUABBIAARAgQQCKIoIAA=</HashCode>
+      <FileName>Controls\ButtonBar.ascx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Web.Controllers.UsuarioOnLineController" Collapsed="true">
+    <Position X="27.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAABAAAAAQAAAAAAgAAAAAAABA=</HashCode>
+      <FileName>Controllers\UsuarioOnLineController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Web.Controllers.AcessosController" Collapsed="true">
+    <Position X="23.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAABA=</HashCode>
+      <FileName>Controllers\AcessosController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Web.Controllers.AcessosGruposController" Collapsed="true">
+    <Position X="25.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAABYAAAAgAAAAAAAAAAAAAABI=</HashCode>
+      <FileName>Controllers\AcessosGruposController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Web.Controllers.BairroController" Collapsed="true">
+    <Position X="30.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAABQAAAAgAACAAAgAAAAAAABA=</HashCode>
+      <FileName>Controllers\BairrosController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Web.Controllers.CidadesController" Collapsed="true">
+    <Position X="34.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAEAAAABQAAAAgAAAAAAgAAAAAAABA=</HashCode>
+      <FileName>Controllers\CidadesController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Web.Controllers.ClientesController" Collapsed="true">
+    <Position X="22" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAADQAAAAgAAAAAAhAAAAAAABA=</HashCode>
+      <FileName>Controllers\ClientesController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Web.Controllers.ContatosController" Collapsed="true">
+    <Position X="25.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAABQAAAAgAAAAhAgAAAAAAABQ=</HashCode>
+      <FileName>Controllers\ContatosController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Web.Controllers.DepartamentosController" Collapsed="true">
+    <Position X="30.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAABQAAAAgAAAAAAgAAAAAAABA=</HashCode>
+      <FileName>Controllers\DepartamentosController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Web.Controllers.DocumentosController" Collapsed="true">
+    <Position X="34.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACBAAEAAAAAAgEEAECAAQIAAIhAAAABAgAgAAAQABA=</HashCode>
+      <FileName>Controllers\DocumentosController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Web.Controllers.EnderecoClienteController" Collapsed="true">
+    <Position X="23.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAABQBAAAgAAAAgggAAAAAAABA=</HashCode>
+      <FileName>Controllers\EnderecoClienteController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Web.Controllers.EnderecoController" Collapsed="true">
+    <Position X="25.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAABQAAAAgAAAAAAhAAAAAAABA=</HashCode>
+      <FileName>Controllers\EnderecoController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Web.Controllers.EquipamentosController" Collapsed="true">
+    <Position X="27.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAgAAAAAAAAAEEAAAABQAAAAgAAAAgAgAAAAAAABA=</HashCode>
+      <FileName>Controllers\EquipamentosController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Web.Controllers.EstadosController" Collapsed="true">
+    <Position X="29" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEBAAABQAAAAgAAAAAAgAAAAAAABA=</HashCode>
+      <FileName>Controllers\EstadosController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Web.Controllers.FuncionalidadesController" Collapsed="true">
+    <Position X="34.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAECAAABQAAAAgAAAAAAgAAAAAIABA=</HashCode>
+      <FileName>Controllers\FuncionalidadesController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Web.Controllers.GruposClientesController" Collapsed="true">
+    <Position X="23.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAABQAAAAgAAAAAAgAAAAAIABA=</HashCode>
+      <FileName>Controllers\GrupoController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Web.Controllers.GruposAcessoController" Collapsed="true">
+    <Position X="22" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAEAAAABQAIAAAAAAAAAgAAAAAIABA=</HashCode>
+      <FileName>Controllers\GruposAcessoController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Web.Controllers.GruposUsuarioAcessoController" Collapsed="true">
+    <Position X="25.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAEAAAABQAAAAAAQEAAAAAAAAAAABA=</HashCode>
+      <FileName>Controllers\GruposUsuarioAcessoController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Web.Controllers.HelpController" Collapsed="true">
+    <Position X="29" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACBA=</HashCode>
+      <FileName>Controllers\HelpController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Web.Controllers.LogradourosController" Collapsed="true">
+    <Position X="22" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAABQAAAAgAAAAAAgAAAAAAABA=</HashCode>
+      <FileName>Controllers\LogradouroController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Web.Controllers.PaisesController" Collapsed="true">
+    <Position X="29" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAABQAAAAgAAAAAAgAAAAAAABA=</HashCode>
+      <FileName>Controllers\PaisesController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Web.Controllers.RecadosController" Collapsed="true">
+    <Position X="22" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAEAAAABQAAAAgAAAAAAgAAAAAAABI=</HashCode>
+      <FileName>Controllers\RecadosController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Web.Controllers.SalasController" Collapsed="true">
+    <Position X="23.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAIAAAAEAAAABQAAAAgAAAAgAgAAAAAAABA=</HashCode>
+      <FileName>Controllers\SalasController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Web.Controllers.SetoresController" Collapsed="true">
+    <Position X="25.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAEAAAABQAAAAgCAAAgAgAAAAAAABA=</HashCode>
+      <FileName>Controllers\SetoresController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Web.Controllers.TipoContatoController" Collapsed="true">
+    <Position X="30.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAABQAAAAgAAAAAAgAAAAAIABA=</HashCode>
+      <FileName>Controllers\TipoContatoController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Web.Controllers.TipoDocumentoController" Collapsed="true">
+    <Position X="34.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAABQAAAAgAAAAAAgAAAAAIABA=</HashCode>
+      <FileName>Controllers\TipoDocumentoController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Web.Controllers.TipoEnderecoController" Collapsed="true">
+    <Position X="22" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAABQAAAAgAAAAAAgAAAAAIABA=</HashCode>
+      <FileName>Controllers\TipoEnderecoController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Web.Controllers.TipoEquipamentoController" Collapsed="true">
+    <Position X="23.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAABQAAAAgAAAAAAgAAAAAIABA=</HashCode>
+      <FileName>Controllers\TipoEquipamentoController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Web.Controllers.TipoRecadoController" Collapsed="true">
+    <Position X="27.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAABQAAAAgAAAAAAgAAAAAIABA=</HashCode>
+      <FileName>Controllers\TipoRecadoController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Web.Controllers.TipoServicoController" Collapsed="true">
+    <Position X="30.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAABQAAAAgAAAAAAgAAAAAIABA=</HashCode>
+      <FileName>Controllers\TipoServicoController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Web.Controllers.UsuarioController" Collapsed="true">
+    <Position X="34.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAABAAKECAAADQAAAAgAACEAEgSAACAAADA=</HashCode>
+      <FileName>Controllers\UsuarioController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Web.Controllers.UsuarioGrupoClienteController" Collapsed="true">
+    <Position X="23.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAEAAQAAAQgAAAAAAgAAAAAAABA=</HashCode>
+      <FileName>Controllers\UsuarioGrupoClienteController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Models.Grupos">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Grupos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GesDoc.Models.Documentos" Collapsed="true">
+    <Position X="32.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARAAICAFACAMAAUSIEAgAAAEAAgAAABAAAEAAAAgAAE=</HashCode>
+      <FileName>Domain\Documentos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

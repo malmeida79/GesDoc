@@ -1,0 +1,16 @@
+=====================================================
+FTP RED HOST
+=====================================================
+usuario FTP: radimenstein.com.br
+senha: Rr@diftp2017
+=====================================================
+EMAIL
+=====================================================
+email: sistema@radimenstein.com.br
+senha: R@dmail2017
+=====================================================
+SQL SERVER
+=====================================================
+Nome do servidor: mssql03.redehost.com.br,5003
+usuario: radimenstein
+senha: r@dimensteinBD17

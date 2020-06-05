@@ -1,0 +1,1050 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.Net.Compilers.2.7.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.2.7.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A3EDD13C-4F5B-4B84-BF70-9B035D8902C1}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GesDoc.Web</RootNamespace>
+    <AssemblyName>GesDoc.Web</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TypeScriptToolsVersion>1.8</TypeScriptToolsVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <ExcludeGeneratedDebugSymbol>true</ExcludeGeneratedDebugSymbol>
+    <PlatformTarget>x86</PlatformTarget>
+    <PublishDatabases>false</PublishDatabases>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Antlr3.Runtime, Version=3.5.0.2, Culture=neutral, PublicKeyToken=eb42632606e9261f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="AspNet.ScriptManager.bootstrap, Version=3.3.6.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\AspNet.ScriptManager.bootstrap.3.3.7\lib\net45\AspNet.ScriptManager.bootstrap.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="AspNet.ScriptManager.jQuery, Version=3.1.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\AspNet.ScriptManager.jQuery.3.1.1\lib\net45\AspNet.ScriptManager.jQuery.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ClosedXML, Version=0.91.0.0, Culture=neutral, PublicKeyToken=fd1eb21b62ae805b, processorArchitecture=MSIL">
+      <HintPath>..\packages\ClosedXML.0.91.0\lib\net452\ClosedXML.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.7.2.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
+      <HintPath>..\packages\DocumentFormat.OpenXml.2.7.2\lib\net40\DocumentFormat.OpenXml.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ExcelNumberFormat, Version=1.0.3.0, Culture=neutral, PublicKeyToken=23c6f5d73be07eca, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelNumberFormat.1.0.3\lib\net20\ExcelNumberFormat.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="FastMember.Signed, Version=1.0.0.9, Culture=neutral, PublicKeyToken=9e8f22703bef9a29, processorArchitecture=MSIL">
+      <HintPath>..\packages\FastMember.Signed.1.1.0\lib\net40\FastMember.Signed.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="HtmlRenderer, Version=1.5.0.6, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\HtmlRenderer.Core.1.5.0.6\lib\net45\HtmlRenderer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Web.Optimization.WebForms, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.WebForms.1.1.3\lib\net45\Microsoft.AspNet.Web.Optimization.WebForms.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.5\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PdfSharp-wpf, Version=1.50.4845.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\PDFsharp-wpf.1.50.4845-RC2a\lib\net30\PdfSharp-wpf.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PdfSharp.Charting-wpf, Version=1.50.4845.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\PDFsharp-wpf.1.50.4845-RC2a\lib\net30\PdfSharp.Charting-wpf.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.3\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.MSAjax">
+      <HintPath>..\packages\Microsoft.AspNet.ScriptManager.MSAjax.5.0.0\lib\net45\Microsoft.ScriptManager.MSAjax.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.WebForms">
+      <HintPath>..\packages\Microsoft.AspNet.ScriptManager.WebForms.5.0.0\lib\net45\Microsoft.ScriptManager.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.FriendlyUrls">
+      <HintPath>..\packages\Microsoft.AspNet.FriendlyUrls.Core.1.0.2\lib\net45\Microsoft.AspNet.FriendlyUrls.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease, Version=1.6.5135.21930, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\file-explore.css" />
+    <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\paginaDentroDeJanela.css" />
+    <Content Include="Controls\ButtonBar.ascx" />
+    <Content Include="Controls\DropTipoDocumento.ascx" />
+    <Content Include="Controls\DropEquipamentos.ascx" />
+    <Content Include="Controls\DropClientes.ascx" />
+    <Content Include="Controls\DropTipoServico.ascx" />
+    <Content Include="erroAcesso.aspx" />
+    <Content Include="App\admGruposUsuario.aspx" />
+    <Content Include="App\cadGruposAcesso.aspx" />
+    <Content Include="App\clonadorAcessosGrupo.aspx" />
+    <Content Include="Imagens\duvidaIcon.gif" />
+    <Content Include="Imagens\logoLion.jpg" />
+    <Content Include="App\downloader.aspx" />
+    <Content Include="App\ListaArquivos.aspx" />
+    <Content Include="App\listaGruposAcessos.aspx" />
+    <Content Include="rastreioDocumentos.aspx" />
+    <Content Include="faq.aspx" />
+    <Content Include="Imagens\amelia.jpg" />
+    <Content Include="Imagens\historia.jpg" />
+    <Content Include="Imagens\logo.ico" />
+    <Content Include="Imagens\logo.png" />
+    <Content Include="Imagens\Luiz.jpg" />
+    <Content Include="Imagens\nuclear1.jpg" />
+    <Content Include="Imagens\nuclear2.jpg" />
+    <Content Include="Imagens\nuclear3.jpg" />
+    <Content Include="Imagens\nuclear4.jpg" />
+    <Content Include="Imagens\nuclear5.jpg" />
+    <Content Include="Imagens\pedro.jpg" />
+    <Content Include="Imagens\radio1.jpg" />
+    <Content Include="Imagens\radio2.jpg" />
+    <Content Include="Imagens\radio3.jpg" />
+    <Content Include="Imagens\radio4.jpg" />
+    <Content Include="Imagens\radio5.jpg" />
+    <Content Include="Imagens\renato.jpg" />
+    <Content Include="Acesso.aspx" />
+    <Content Include="Imagens\jquery-wm\clear.gif" />
+    <Content Include="Imagens\jquery-wm\icons.png" />
+    <Content Include="Imagens\jquery-wm\jquery.wm.default.icons.png" />
+    <Content Include="Content\wmjquery.css" />
+    <Content Include="Scripts\file-explore.js" />
+    <Content Include="Scripts\wmjquery.js" />
+    <Content Include="Scripts\jquery.mask.js" />
+    <Content Include="Scripts\jquery.mask.min.js" />
+    <Content Include="Scripts\geral_sitev0001.js" />
+    <Content Include="esqueciSenha.aspx" />
+    <Content Include="Sobre.aspx" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Imagens\assinatura.png" />
+    <Content Include="Imagens\carousel1.jpg" />
+    <Content Include="Imagens\carousel2.jpg" />
+    <Content Include="Imagens\carousel3.jpg" />
+    <Content Include="Imagens\carousel4.jpg" />
+    <Content Include="Imagens\carousel5.jpg" />
+    <Content Include="Imagens\carousel6.jpg" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="packages.config" />
+    <Content Include="dgClasses.cd" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <None Include="Properties\PublishProfiles\Publicacao.pubxml" />
+    <None Include="Scripts\jquery-3.1.1.intellisense.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\jquery-3.1.1.js" />
+    <Content Include="Scripts\jquery-3.1.1.min.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.min.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\respond.js" />
+    <Content Include="Scripts\respond.matchmedia.addListener.js" />
+    <Content Include="Scripts\respond.matchmedia.addListener.min.js" />
+    <Content Include="Scripts\respond.min.js" />
+    <Content Include="medNuclear.aspx" />
+    <Content Include="radioDiag.aspx" />
+    <Content Include="Contato.aspx" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\Site.css" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="Imagens\logo.jpg" />
+    <Content Include="Scripts\WebForms\DetailsView.js" />
+    <Content Include="Scripts\WebForms\Focus.js" />
+    <Content Include="Scripts\WebForms\GridView.js" />
+    <Content Include="Scripts\WebForms\Menu.js" />
+    <Content Include="Scripts\WebForms\MenuStandards.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjax.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxApplicationServices.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxComponentModel.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxCore.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxGlobalization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxHistory.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxNetwork.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxSerialization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxTimer.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebForms.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebServices.js" />
+    <Content Include="Scripts\WebForms\SmartNav.js" />
+    <Content Include="Scripts\WebForms\TreeView.js" />
+    <Content Include="Scripts\WebForms\WebForms.js" />
+    <Content Include="Scripts\WebForms\WebParts.js" />
+    <Content Include="Scripts\WebForms\WebUIValidation.js" />
+    <Content Include="Scripts\_references.js" />
+    <Content Include="Default.aspx" />
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <Content Include="Site.Master" />
+    <Content Include="App\adicionaDocumento.aspx" />
+    <Content Include="App\acessoCliente.aspx" />
+    <Content Include="App\cadGruposCliente.aspx" />
+    <Content Include="App\cadRecados.aspx" />
+    <Content Include="App\cadTipoDocumento.aspx" />
+    <Content Include="App\cadTipoContato.aspx" />
+    <Content Include="App\cadTipoEndereco.aspx" />
+    <Content Include="App\cadTipoEquipamento.aspx" />
+    <Content Include="App\cadTipoRecado.aspx" />
+    <Content Include="App\cadTipoServico.aspx" />
+    <Content Include="App\alteraSenha.aspx" />
+    <Content Include="descarrega.aspx" />
+    <Content Include="App\docsRaizCliente.aspx" />
+    <Content Include="App\docsGeral.aspx" />
+    <Content Include="App\cadClientes.aspx" />
+    <Content Include="App\cadSalaCliente.aspx" />
+    <Content Include="App\cadEquipCliente.aspx" />
+    <Content Include="App\cadSetorCliente.aspx" />
+    <Content Include="App\cadEnderecos.aspx" />
+    <Content Include="App\cadBairro.aspx" />
+    <Content Include="App\cadCidades.aspx" />
+    <Content Include="App\cadControleAcesso.aspx" />
+    <Content Include="App\cadLogradouros.aspx" />
+    <Content Include="App\cadEstados.aspx" />
+    <Content Include="App\cadPaises.aspx" />
+    <Content Include="App\cadFuncionalidades.aspx" />
+    <Content Include="App\cadDepartamentos.aspx" />
+    <Content Include="App\cadContatoCliente.aspx" />
+    <Content Include="App\cadUsuarios.aspx" />
+    <Content Include="App\admDocumentos.aspx" />
+    <Content Include="App\selCliente.aspx" />
+    <Content Include="App\listaBairros.aspx" />
+    <Content Include="App\listaCidades.aspx" />
+    <Content Include="App\listaTipoDocumento.aspx" />
+    <Content Include="App\rastreioDocumento.aspx" />
+    <Content Include="App\listaClientesDocumento.aspx" />
+    <Content Include="App\listaClientes.aspx" />
+    <Content Include="App\cadEnderecoCliente.aspx" />
+    <Content Include="App\listaEnderecos.aspx" />
+    <Content Include="App\admGrupoClientesUsuario.aspx" />
+    <Content Include="App\listaGruposCliente.aspx" />
+    <Content Include="App\listaRecados.aspx" />
+    <Content Include="App\listaLogradouros.aspx" />
+    <Content Include="App\listaEstados.aspx" />
+    <Content Include="App\listaAcessos.aspx" />
+    <Content Include="App\listaPaises.aspx" />
+    <Content Include="App\listaFuncionalidades.aspx" />
+    <Content Include="App\listaDepartamentos.aspx" />
+    <Content Include="App\listaTipoContato.aspx" />
+    <Content Include="App\listaTipoEndereco.aspx" />
+    <Content Include="App\listaTipoEquipamento.aspx" />
+    <Content Include="App\listaTipoRecado.aspx" />
+    <Content Include="App\listaTipoServico.aspx" />
+    <Content Include="App\listaControleAcesso.aspx" />
+    <Content Include="App\clonadorAcessos.aspx" />
+    <Content Include="App\listaUsuarios.aspx" />
+    <Content Include="App\default.aspx" />
+    <Content Include="App\erro.aspx" />
+    <Content Include="App\Interna.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Bundle.config" />
+    <Content Include="App\Sistema.Master" />
+    <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.1.1.min.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controllers\UsuarioOnLineController.cs" />
+    <Compile Include="Controls\ButtonBar.ascx.cs">
+      <DependentUpon>ButtonBar.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ButtonBar.ascx.designer.cs">
+      <DependentUpon>ButtonBar.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\DropTipoDocumento.ascx.cs">
+      <DependentUpon>DropTipoDocumento.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\DropTipoDocumento.ascx.designer.cs">
+      <DependentUpon>DropTipoDocumento.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\DropEquipamentos.ascx.cs">
+      <DependentUpon>DropEquipamentos.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\DropEquipamentos.ascx.designer.cs">
+      <DependentUpon>DropEquipamentos.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\DropClientes.ascx.cs">
+      <DependentUpon>DropClientes.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\DropClientes.ascx.designer.cs">
+      <DependentUpon>DropClientes.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\DropTipoServico.ascx.cs">
+      <DependentUpon>DropTipoServico.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\DropTipoServico.ascx.designer.cs">
+      <DependentUpon>DropTipoServico.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="erroAcesso.aspx.cs">
+      <DependentUpon>erroAcesso.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="erroAcesso.aspx.designer.cs">
+      <DependentUpon>erroAcesso.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\admGruposUsuario.aspx.cs">
+      <DependentUpon>admGruposUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\admGruposUsuario.aspx.designer.cs">
+      <DependentUpon>admGruposUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\cadGruposAcesso.aspx.cs">
+      <DependentUpon>cadGruposAcesso.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\cadGruposAcesso.aspx.designer.cs">
+      <DependentUpon>cadGruposAcesso.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\clonadorAcessosGrupo.aspx.cs">
+      <DependentUpon>clonadorAcessosGrupo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\clonadorAcessosGrupo.aspx.designer.cs">
+      <DependentUpon>clonadorAcessosGrupo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\AcessosController.cs" />
+    <Compile Include="Controllers\AcessosGruposController.cs" />
+    <Compile Include="Controllers\BairrosController.cs" />
+    <Compile Include="Controllers\CidadesController.cs" />
+    <Compile Include="Controllers\ClientesController.cs" />
+    <Compile Include="Controllers\ContatosController.cs" />
+    <Compile Include="Controllers\DepartamentosController.cs" />
+    <Compile Include="Controllers\EnderecoController.cs" />
+    <Compile Include="Controllers\EnderecoClienteController.cs" />
+    <Compile Include="Controllers\EquipamentosController.cs" />
+    <Compile Include="Controllers\EstadosController.cs" />
+    <Compile Include="Controllers\FuncionalidadesController.cs" />
+    <Compile Include="Controllers\GrupoController.cs" />
+    <Compile Include="Controllers\DocumentosController.cs" />
+    <Compile Include="Controllers\GruposUsuarioAcessoController.cs" />
+    <Compile Include="Controllers\HelpController.cs" />
+    <Compile Include="Controllers\LogradouroController.cs" />
+    <Compile Include="Controllers\GruposAcessoController.cs" />
+    <Compile Include="Controllers\PaisesController.cs" />
+    <Compile Include="Controllers\RecadosController.cs" />
+    <Compile Include="Controllers\SalasController.cs" />
+    <Compile Include="Controllers\SetoresController.cs" />
+    <Compile Include="Controllers\TipoDocumentoController.cs" />
+    <Compile Include="Controllers\TipoContatoController.cs" />
+    <Compile Include="Controllers\TipoEnderecoController.cs" />
+    <Compile Include="Controllers\TipoEquipamentoController.cs" />
+    <Compile Include="Controllers\TipoRecadoController.cs" />
+    <Compile Include="Controllers\TipoServicoController.cs" />
+    <Compile Include="Controllers\UsuarioController.cs" />
+    <Compile Include="Controllers\UsuarioGrupoClienteController.cs" />
+    <Compile Include="Infraestructure\Ambiente.cs" />
+    <Compile Include="App\downloader.aspx.cs">
+      <DependentUpon>downloader.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\downloader.aspx.designer.cs">
+      <DependentUpon>downloader.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\ListaArquivos.aspx.cs">
+      <DependentUpon>ListaArquivos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\ListaArquivos.aspx.designer.cs">
+      <DependentUpon>ListaArquivos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\listaGruposAcessos.aspx.cs">
+      <DependentUpon>listaGruposAcessos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\listaGruposAcessos.aspx.designer.cs">
+      <DependentUpon>listaGruposAcessos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Services\Exports.cs" />
+    <Compile Include="Services\HelperPages.cs" />
+    <Compile Include="rastreioDocumentos.aspx.cs">
+      <DependentUpon>rastreioDocumentos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="rastreioDocumentos.aspx.designer.cs">
+      <DependentUpon>rastreioDocumentos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="faq.aspx.cs">
+      <DependentUpon>faq.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="faq.aspx.designer.cs">
+      <DependentUpon>faq.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="esqueciSenha.aspx.cs">
+      <DependentUpon>esqueciSenha.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="esqueciSenha.aspx.designer.cs">
+      <DependentUpon>esqueciSenha.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Acesso.aspx.cs">
+      <DependentUpon>Acesso.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Acesso.aspx.designer.cs">
+      <DependentUpon>Acesso.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sobre.aspx.cs">
+      <DependentUpon>Sobre.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sobre.aspx.designer.cs">
+      <DependentUpon>Sobre.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="medNuclear.aspx.cs">
+      <DependentUpon>medNuclear.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="medNuclear.aspx.designer.cs">
+      <DependentUpon>medNuclear.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="radioDiag.aspx.cs">
+      <DependentUpon>radioDiag.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="radioDiag.aspx.designer.cs">
+      <DependentUpon>radioDiag.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contato.aspx.cs">
+      <DependentUpon>Contato.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contato.aspx.designer.cs">
+      <DependentUpon>Contato.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\adicionaDocumento.aspx.cs">
+      <DependentUpon>adicionaDocumento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\adicionaDocumento.aspx.designer.cs">
+      <DependentUpon>adicionaDocumento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\acessoCliente.aspx.cs">
+      <DependentUpon>acessoCliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\acessoCliente.aspx.designer.cs">
+      <DependentUpon>acessoCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\cadGruposCliente.aspx.cs">
+      <DependentUpon>cadGruposCliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\cadGruposCliente.aspx.designer.cs">
+      <DependentUpon>cadGruposCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\cadRecados.aspx.cs">
+      <DependentUpon>cadRecados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\cadRecados.aspx.designer.cs">
+      <DependentUpon>cadRecados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\cadTipoDocumento.aspx.cs">
+      <DependentUpon>cadTipoDocumento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\cadTipoDocumento.aspx.designer.cs">
+      <DependentUpon>cadTipoDocumento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\cadTipoContato.aspx.cs">
+      <DependentUpon>cadTipoContato.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\cadTipoContato.aspx.designer.cs">
+      <DependentUpon>cadTipoContato.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\cadTipoEndereco.aspx.cs">
+      <DependentUpon>cadTipoEndereco.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\cadTipoEndereco.aspx.designer.cs">
+      <DependentUpon>cadTipoEndereco.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\cadTipoEquipamento.aspx.cs">
+      <DependentUpon>cadTipoEquipamento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\cadTipoEquipamento.aspx.designer.cs">
+      <DependentUpon>cadTipoEquipamento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\cadTipoRecado.aspx.cs">
+      <DependentUpon>cadTipoRecado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\cadTipoRecado.aspx.designer.cs">
+      <DependentUpon>cadTipoRecado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\cadTipoServico.aspx.cs">
+      <DependentUpon>cadTipoServico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\cadTipoServico.aspx.designer.cs">
+      <DependentUpon>cadTipoServico.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\alteraSenha.aspx.cs">
+      <DependentUpon>alteraSenha.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\alteraSenha.aspx.designer.cs">
+      <DependentUpon>alteraSenha.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="descarrega.aspx.cs">
+      <DependentUpon>descarrega.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="descarrega.aspx.designer.cs">
+      <DependentUpon>descarrega.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\docsRaizCliente.aspx.cs">
+      <DependentUpon>docsRaizCliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\docsRaizCliente.aspx.designer.cs">
+      <DependentUpon>docsRaizCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\docsGeral.aspx.cs">
+      <DependentUpon>docsGeral.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\docsGeral.aspx.designer.cs">
+      <DependentUpon>docsGeral.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\cadSalaCliente.aspx.cs">
+      <DependentUpon>cadSalaCliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\cadSalaCliente.aspx.designer.cs">
+      <DependentUpon>cadSalaCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\cadEquipCliente.aspx.cs">
+      <DependentUpon>cadEquipCliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\cadEquipCliente.aspx.designer.cs">
+      <DependentUpon>cadEquipCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\admDocumentos.aspx.cs">
+      <DependentUpon>admDocumentos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\admDocumentos.aspx.designer.cs">
+      <DependentUpon>admDocumentos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\selCliente.aspx.cs">
+      <DependentUpon>selCliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\selCliente.aspx.designer.cs">
+      <DependentUpon>selCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\listaTipoDocumento.aspx.cs">
+      <DependentUpon>listaTipoDocumento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\listaTipoDocumento.aspx.designer.cs">
+      <DependentUpon>listaTipoDocumento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\rastreioDocumento.aspx.cs">
+      <DependentUpon>rastreioDocumento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\rastreioDocumento.aspx.designer.cs">
+      <DependentUpon>rastreioDocumento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\listaClientesDocumento.aspx.cs">
+      <DependentUpon>listaClientesDocumento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\listaClientesDocumento.aspx.designer.cs">
+      <DependentUpon>listaClientesDocumento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\listaAcessos.aspx.cs">
+      <DependentUpon>listaAcessos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\listaAcessos.aspx.designer.cs">
+      <DependentUpon>listaAcessos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\admGrupoClientesUsuario.aspx.cs">
+      <DependentUpon>admGrupoClientesUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\admGrupoClientesUsuario.aspx.designer.cs">
+      <DependentUpon>admGrupoClientesUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\listaGruposCliente.aspx.cs">
+      <DependentUpon>listaGruposCliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\listaGruposCliente.aspx.designer.cs">
+      <DependentUpon>listaGruposCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\listaRecados.aspx.cs">
+      <DependentUpon>listaRecados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\listaRecados.aspx.designer.cs">
+      <DependentUpon>listaRecados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\listaTipoContato.aspx.cs">
+      <DependentUpon>listaTipoContato.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\listaTipoContato.aspx.designer.cs">
+      <DependentUpon>listaTipoContato.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\listaTipoEndereco.aspx.cs">
+      <DependentUpon>listaTipoEndereco.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\listaTipoEndereco.aspx.designer.cs">
+      <DependentUpon>listaTipoEndereco.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\listaTipoEquipamento.aspx.cs">
+      <DependentUpon>listaTipoEquipamento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\listaTipoEquipamento.aspx.designer.cs">
+      <DependentUpon>listaTipoEquipamento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\listaTipoRecado.aspx.cs">
+      <DependentUpon>listaTipoRecado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\listaTipoRecado.aspx.designer.cs">
+      <DependentUpon>listaTipoRecado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\listaTipoServico.aspx.cs">
+      <DependentUpon>listaTipoServico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\listaTipoServico.aspx.designer.cs">
+      <DependentUpon>listaTipoServico.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\clonadorAcessos.aspx.cs">
+      <DependentUpon>clonadorAcessos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\clonadorAcessos.aspx.designer.cs">
+      <DependentUpon>clonadorAcessos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Services\Arquivos.cs" />
+    <Compile Include="Infraestructure\FuncoesGerais.cs" />
+    <Compile Include="Services\Criptografia.cs" />
+    <Compile Include="Services\Log.cs" />
+    <Compile Include="Infraestructure\MontaMenu.cs" />
+    <Compile Include="Services\SQLBase.cs" />
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="App\cadClientes.aspx.cs">
+      <DependentUpon>cadClientes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\cadClientes.aspx.designer.cs">
+      <DependentUpon>cadClientes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\cadSetorCliente.aspx.cs">
+      <DependentUpon>cadSetorCliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\cadSetorCliente.aspx.designer.cs">
+      <DependentUpon>cadSetorCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\cadEnderecos.aspx.cs">
+      <DependentUpon>cadEnderecos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\cadEnderecos.aspx.designer.cs">
+      <DependentUpon>cadEnderecos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\cadBairro.aspx.cs">
+      <DependentUpon>cadBairro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\cadBairro.aspx.designer.cs">
+      <DependentUpon>cadBairro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\cadCidades.aspx.cs">
+      <DependentUpon>cadCidades.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\cadCidades.aspx.designer.cs">
+      <DependentUpon>cadCidades.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\cadControleAcesso.aspx.cs">
+      <DependentUpon>cadControleAcesso.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\cadControleAcesso.aspx.designer.cs">
+      <DependentUpon>cadControleAcesso.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\cadLogradouros.aspx.cs">
+      <DependentUpon>cadLogradouros.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\cadLogradouros.aspx.designer.cs">
+      <DependentUpon>cadLogradouros.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\cadEstados.aspx.cs">
+      <DependentUpon>cadEstados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\cadEstados.aspx.designer.cs">
+      <DependentUpon>cadEstados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\cadPaises.aspx.cs">
+      <DependentUpon>cadPaises.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\cadPaises.aspx.designer.cs">
+      <DependentUpon>cadPaises.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\cadFuncionalidades.aspx.cs">
+      <DependentUpon>cadFuncionalidades.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\cadFuncionalidades.aspx.designer.cs">
+      <DependentUpon>cadFuncionalidades.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\cadDepartamentos.aspx.cs">
+      <DependentUpon>cadDepartamentos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\cadDepartamentos.aspx.designer.cs">
+      <DependentUpon>cadDepartamentos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\cadContatoCliente.aspx.cs">
+      <DependentUpon>cadContatoCliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\cadContatoCliente.aspx.designer.cs">
+      <DependentUpon>cadContatoCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\cadUsuarios.aspx.cs">
+      <DependentUpon>cadUsuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\cadUsuarios.aspx.designer.cs">
+      <DependentUpon>cadUsuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\listaBairros.aspx.cs">
+      <DependentUpon>listaBairros.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\listaBairros.aspx.designer.cs">
+      <DependentUpon>listaBairros.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\listaCidades.aspx.cs">
+      <DependentUpon>listaCidades.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\listaCidades.aspx.designer.cs">
+      <DependentUpon>listaCidades.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\listaClientes.aspx.cs">
+      <DependentUpon>listaClientes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\listaClientes.aspx.designer.cs">
+      <DependentUpon>listaClientes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\cadEnderecoCliente.aspx.cs">
+      <DependentUpon>cadEnderecoCliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\cadEnderecoCliente.aspx.designer.cs">
+      <DependentUpon>cadEnderecoCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\listaEnderecos.aspx.cs">
+      <DependentUpon>listaEnderecos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\listaEnderecos.aspx.designer.cs">
+      <DependentUpon>listaEnderecos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\listaLogradouros.aspx.cs">
+      <DependentUpon>listaLogradouros.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\listaLogradouros.aspx.designer.cs">
+      <DependentUpon>listaLogradouros.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\listaEstados.aspx.cs">
+      <DependentUpon>listaEstados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\listaEstados.aspx.designer.cs">
+      <DependentUpon>listaEstados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\listaPaises.aspx.cs">
+      <DependentUpon>listaPaises.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\listaPaises.aspx.designer.cs">
+      <DependentUpon>listaPaises.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\listaFuncionalidades.aspx.cs">
+      <DependentUpon>listaFuncionalidades.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\listaFuncionalidades.aspx.designer.cs">
+      <DependentUpon>listaFuncionalidades.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\listaDepartamentos.aspx.cs">
+      <DependentUpon>listaDepartamentos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\listaDepartamentos.aspx.designer.cs">
+      <DependentUpon>listaDepartamentos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\listaControleAcesso.aspx.cs">
+      <DependentUpon>listaControleAcesso.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\listaControleAcesso.aspx.designer.cs">
+      <DependentUpon>listaControleAcesso.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\listaUsuarios.aspx.cs">
+      <DependentUpon>listaUsuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\listaUsuarios.aspx.designer.cs">
+      <DependentUpon>listaUsuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\erro.aspx.cs">
+      <DependentUpon>erro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\erro.aspx.designer.cs">
+      <DependentUpon>erro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\Interna.aspx.cs">
+      <DependentUpon>Interna.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\Interna.aspx.designer.cs">
+      <DependentUpon>Interna.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\Sistema.Master.cs">
+      <DependentUpon>Sistema.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\Sistema.Master.designer.cs">
+      <DependentUpon>Sistema.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Services\Mensagens.cs" />
+    <Compile Include="Services\Validacoes.cs" />
+    <Compile Include="Services\Tratamentos.cs" />
+    <Compile Include="Services\MapeamentoPaths.cs" />
+    <Compile Include="Services\Emails.cs" />
+    <Compile Include="Services\Extensoes.cs" />
+    <Compile Include="Services\PDFs.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Arquivos\Geral\" />
+    <Folder Include="Arquivos\Laudos\" />
+    <Folder Include="Arquivos\RaizCliente\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Gesdoc.Models\GesDoc.Models.csproj">
+      <Project>{93cd99fb-9217-4c62-aa9a-5d5865c37234}</Project>
+      <Name>GesDoc.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>52071</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:52071/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.2.7.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.2.7.0\build\Microsoft.Net.Compilers.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

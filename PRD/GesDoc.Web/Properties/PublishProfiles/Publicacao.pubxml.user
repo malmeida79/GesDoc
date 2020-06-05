@@ -1,0 +1,673 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\publicacao</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Acesso.aspx">
+      <publishTime>04/25/2018 00:29:00</publishTime>
+    </File>
+    <File Include="App/acessoCliente.aspx">
+      <publishTime>04/25/2018 00:34:20</publishTime>
+    </File>
+    <File Include="App/adicionaDocumento.aspx">
+      <publishTime>04/25/2018 00:34:20</publishTime>
+    </File>
+    <File Include="App/admDocumentos.aspx">
+      <publishTime>04/25/2018 00:34:20</publishTime>
+    </File>
+    <File Include="App/admGrupoClientesUsuario.aspx">
+      <publishTime>04/25/2018 00:34:20</publishTime>
+    </File>
+    <File Include="App/admGruposUsuario.aspx">
+      <publishTime>04/25/2018 00:34:20</publishTime>
+    </File>
+    <File Include="App/alteraSenha.aspx">
+      <publishTime>04/25/2018 00:34:20</publishTime>
+    </File>
+    <File Include="App/cadBairro.aspx">
+      <publishTime>04/25/2018 00:34:20</publishTime>
+    </File>
+    <File Include="App/cadCidades.aspx">
+      <publishTime>04/25/2018 00:34:20</publishTime>
+    </File>
+    <File Include="App/cadClientes.aspx">
+      <publishTime>05/29/2018 22:21:15</publishTime>
+    </File>
+    <File Include="App/cadContatoCliente.aspx">
+      <publishTime>04/25/2018 00:34:20</publishTime>
+    </File>
+    <File Include="App/cadControleAcesso.aspx">
+      <publishTime>04/25/2018 00:34:20</publishTime>
+    </File>
+    <File Include="App/cadDepartamentos.aspx">
+      <publishTime>04/25/2018 00:34:20</publishTime>
+    </File>
+    <File Include="App/cadEnderecoCliente.aspx">
+      <publishTime>04/25/2018 00:34:20</publishTime>
+    </File>
+    <File Include="App/cadEnderecos.aspx">
+      <publishTime>04/25/2018 00:34:20</publishTime>
+    </File>
+    <File Include="App/cadEquipCliente.aspx">
+      <publishTime>04/25/2018 00:34:21</publishTime>
+    </File>
+    <File Include="App/cadEstados.aspx">
+      <publishTime>04/25/2018 00:34:21</publishTime>
+    </File>
+    <File Include="App/cadFuncionalidades.aspx">
+      <publishTime>04/25/2018 00:34:21</publishTime>
+    </File>
+    <File Include="App/cadGruposAcesso.aspx">
+      <publishTime>04/25/2018 00:34:21</publishTime>
+    </File>
+    <File Include="App/cadGruposCliente.aspx">
+      <publishTime>04/25/2018 00:34:21</publishTime>
+    </File>
+    <File Include="App/cadLogradouros.aspx">
+      <publishTime>04/25/2018 00:34:21</publishTime>
+    </File>
+    <File Include="App/cadPaises.aspx">
+      <publishTime>04/25/2018 00:34:21</publishTime>
+    </File>
+    <File Include="App/cadRecados.aspx">
+      <publishTime>04/25/2018 00:34:21</publishTime>
+    </File>
+    <File Include="App/cadSalaCliente.aspx">
+      <publishTime>04/25/2018 00:34:21</publishTime>
+    </File>
+    <File Include="App/cadSetorCliente.aspx">
+      <publishTime>04/25/2018 00:34:21</publishTime>
+    </File>
+    <File Include="App/cadTipoContato.aspx">
+      <publishTime>04/25/2018 00:34:21</publishTime>
+    </File>
+    <File Include="App/cadTipoDocumento.aspx">
+      <publishTime>04/25/2018 00:34:21</publishTime>
+    </File>
+    <File Include="App/cadTipoEndereco.aspx">
+      <publishTime>04/25/2018 00:34:21</publishTime>
+    </File>
+    <File Include="App/cadTipoEquipamento.aspx">
+      <publishTime>04/25/2018 00:34:21</publishTime>
+    </File>
+    <File Include="App/cadTipoRecado.aspx">
+      <publishTime>04/25/2018 00:34:21</publishTime>
+    </File>
+    <File Include="App/cadTipoServico.aspx">
+      <publishTime>04/25/2018 00:34:21</publishTime>
+    </File>
+    <File Include="App/cadUsuarios.aspx">
+      <publishTime>04/25/2018 00:34:21</publishTime>
+    </File>
+    <File Include="App/clonadorAcessos.aspx">
+      <publishTime>04/25/2018 00:34:21</publishTime>
+    </File>
+    <File Include="App/clonadorAcessosGrupo.aspx">
+      <publishTime>04/25/2018 00:34:21</publishTime>
+    </File>
+    <File Include="App/default.aspx">
+      <publishTime>04/25/2018 00:34:21</publishTime>
+    </File>
+    <File Include="App/docsGeral.aspx">
+      <publishTime>04/25/2018 00:34:21</publishTime>
+    </File>
+    <File Include="App/docsRaizCliente.aspx">
+      <publishTime>04/25/2018 00:34:21</publishTime>
+    </File>
+    <File Include="App/downloader.aspx">
+      <publishTime>04/25/2018 00:34:21</publishTime>
+    </File>
+    <File Include="App/erro.aspx">
+      <publishTime>10/30/2018 23:22:31</publishTime>
+    </File>
+    <File Include="App/Interna.aspx">
+      <publishTime>10/23/2018 22:25:38</publishTime>
+    </File>
+    <File Include="App/listaAcessos.aspx">
+      <publishTime>04/25/2018 00:34:21</publishTime>
+    </File>
+    <File Include="App/ListaArquivos.aspx">
+      <publishTime>04/25/2018 00:34:21</publishTime>
+    </File>
+    <File Include="App/listaBairros.aspx">
+      <publishTime>04/25/2018 00:34:21</publishTime>
+    </File>
+    <File Include="App/listaCidades.aspx">
+      <publishTime>04/25/2018 00:34:21</publishTime>
+    </File>
+    <File Include="App/listaClientes.aspx">
+      <publishTime>04/25/2018 00:34:21</publishTime>
+    </File>
+    <File Include="App/listaClientesDocumento.aspx">
+      <publishTime>04/25/2018 00:34:21</publishTime>
+    </File>
+    <File Include="App/listaControleAcesso.aspx">
+      <publishTime>04/25/2018 00:34:21</publishTime>
+    </File>
+    <File Include="App/listaDepartamentos.aspx">
+      <publishTime>04/25/2018 00:34:21</publishTime>
+    </File>
+    <File Include="App/listaEnderecos.aspx">
+      <publishTime>04/25/2018 00:34:21</publishTime>
+    </File>
+    <File Include="App/listaEstados.aspx">
+      <publishTime>04/25/2018 00:34:22</publishTime>
+    </File>
+    <File Include="App/listaFuncionalidades.aspx">
+      <publishTime>04/25/2018 00:34:22</publishTime>
+    </File>
+    <File Include="App/listaGruposAcessos.aspx">
+      <publishTime>04/25/2018 00:34:22</publishTime>
+    </File>
+    <File Include="App/listaGruposCliente.aspx">
+      <publishTime>04/25/2018 00:34:22</publishTime>
+    </File>
+    <File Include="App/listaLogradouros.aspx">
+      <publishTime>04/25/2018 00:34:22</publishTime>
+    </File>
+    <File Include="App/listaPaises.aspx">
+      <publishTime>04/25/2018 00:34:22</publishTime>
+    </File>
+    <File Include="App/listaRecados.aspx">
+      <publishTime>04/25/2018 00:34:22</publishTime>
+    </File>
+    <File Include="App/listaTipoContato.aspx">
+      <publishTime>04/25/2018 00:34:22</publishTime>
+    </File>
+    <File Include="App/listaTipoDocumento.aspx">
+      <publishTime>04/25/2018 00:34:22</publishTime>
+    </File>
+    <File Include="App/listaTipoEndereco.aspx">
+      <publishTime>04/25/2018 00:34:22</publishTime>
+    </File>
+    <File Include="App/listaTipoEquipamento.aspx">
+      <publishTime>04/25/2018 00:34:22</publishTime>
+    </File>
+    <File Include="App/listaTipoRecado.aspx">
+      <publishTime>04/25/2018 00:34:22</publishTime>
+    </File>
+    <File Include="App/listaTipoServico.aspx">
+      <publishTime>04/25/2018 00:34:22</publishTime>
+    </File>
+    <File Include="App/listaUsuarios.aspx">
+      <publishTime>04/25/2018 00:34:22</publishTime>
+    </File>
+    <File Include="App/rastreioDocumento.aspx">
+      <publishTime>04/25/2018 00:34:22</publishTime>
+    </File>
+    <File Include="App/selCliente.aspx">
+      <publishTime>04/25/2018 00:34:22</publishTime>
+    </File>
+    <File Include="App/Sistema.Master">
+      <publishTime>10/30/2018 23:22:31</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>04/05/2018 17:43:35</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.compiled">
+      <publishTime>10/30/2018 23:33:07</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.dll">
+      <publishTime>10/30/2018 23:33:07</publishTime>
+    </File>
+    <File Include="bin/AspNet.ScriptManager.bootstrap.dll">
+      <publishTime>04/05/2018 17:43:34</publishTime>
+    </File>
+    <File Include="bin/AspNet.ScriptManager.jQuery.dll">
+      <publishTime>04/05/2018 17:43:34</publishTime>
+    </File>
+    <File Include="bin/ClosedXML.dll">
+      <publishTime>04/05/2018 17:43:35</publishTime>
+    </File>
+    <File Include="bin/de/MigraDoc.DocumentObjectModel.resources.dll">
+      <publishTime>02/16/2012 16:04:20</publishTime>
+    </File>
+    <File Include="bin/de/MigraDoc.Rendering.resources.dll">
+      <publishTime>02/16/2012 16:04:20</publishTime>
+    </File>
+    <File Include="bin/de/MigraDoc.RtfRendering.resources.dll">
+      <publishTime>02/16/2012 16:04:20</publishTime>
+    </File>
+    <File Include="bin/de/PdfSharp-wpf.resources.dll">
+      <publishTime>04/08/2018 10:25:08</publishTime>
+    </File>
+    <File Include="bin/de/PdfSharp.Charting-wpf.resources.dll">
+      <publishTime>04/08/2018 10:25:08</publishTime>
+    </File>
+    <File Include="bin/de/PdfSharp.Charting.resources.dll">
+      <publishTime>02/16/2012 16:04:20</publishTime>
+    </File>
+    <File Include="bin/de/PdfSharp.resources.dll">
+      <publishTime>02/16/2012 16:04:20</publishTime>
+    </File>
+    <File Include="bin/DocumentFormat.OpenXml.dll">
+      <publishTime>04/05/2018 17:43:46</publishTime>
+    </File>
+    <File Include="bin/ExcelNumberFormat.dll">
+      <publishTime>04/05/2018 17:43:38</publishTime>
+    </File>
+    <File Include="bin/FastMember.Signed.dll">
+      <publishTime>04/05/2018 17:43:38</publishTime>
+    </File>
+    <File Include="bin/Gesdoc.Models.dll">
+      <publishTime>10/30/2018 22:14:40</publishTime>
+    </File>
+    <File Include="bin/GesDoc.Web.dll">
+      <publishTime>10/30/2018 23:23:01</publishTime>
+    </File>
+    <File Include="bin/HtmlRenderer.dll">
+      <publishTime>04/05/2018 17:43:39</publishTime>
+    </File>
+    <File Include="bin/itextsharp.dll">
+      <publishTime>01/22/2018 18:40:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.FriendlyUrls.dll">
+      <publishTime>04/05/2018 17:43:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Web.Optimization.WebForms.dll">
+      <publishTime>04/05/2018 17:43:43</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>04/05/2018 17:43:43</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ScriptManager.MSAjax.dll">
+      <publishTime>04/05/2018 17:43:43</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ScriptManager.WebForms.dll">
+      <publishTime>04/05/2018 17:43:43</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>04/05/2018 17:43:50</publishTime>
+    </File>
+    <File Include="bin/MigraDoc.DocumentObjectModel.dll">
+      <publishTime>02/16/2012 16:04:18</publishTime>
+    </File>
+    <File Include="bin/MigraDoc.Rendering.dll">
+      <publishTime>02/16/2012 16:04:18</publishTime>
+    </File>
+    <File Include="bin/MigraDoc.RtfRendering.dll">
+      <publishTime>02/16/2012 16:04:18</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>04/05/2018 17:43:52</publishTime>
+    </File>
+    <File Include="bin/PdfSharp-wpf.dll">
+      <publishTime>04/08/2018 10:25:08</publishTime>
+    </File>
+    <File Include="bin/PdfSharp.Charting-wpf.dll">
+      <publishTime>04/08/2018 10:25:08</publishTime>
+    </File>
+    <File Include="bin/PdfSharp.Charting.dll">
+      <publishTime>02/16/2012 16:04:18</publishTime>
+    </File>
+    <File Include="bin/PdfSharp.dll">
+      <publishTime>02/16/2012 16:04:18</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>01/28/2015 05:02:42</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>01/28/2015 05:02:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>01/28/2015 05:03:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>04/05/2018 17:43:43</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>04/05/2018 17:43:53</publishTime>
+    </File>
+    <File Include="Bundle.config">
+      <publishTime>04/05/2018 17:43:53</publishTime>
+    </File>
+    <File Include="Contato.aspx">
+      <publishTime>04/25/2018 00:28:45</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css">
+      <publishTime>04/05/2018 17:43:53</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css.map">
+      <publishTime>04/05/2018 17:43:53</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css">
+      <publishTime>04/05/2018 17:43:53</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css.map">
+      <publishTime>04/05/2018 17:43:53</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>04/05/2018 17:43:53</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>04/05/2018 17:43:53</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>04/05/2018 17:43:53</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>04/05/2018 17:43:53</publishTime>
+    </File>
+    <File Include="Content/file-explore.css">
+      <publishTime>04/05/2018 17:43:53</publishTime>
+    </File>
+    <File Include="Content/font-awesome.min.css">
+      <publishTime>04/05/2018 17:43:53</publishTime>
+    </File>
+    <File Include="Content/paginaDentroDeJanela.css">
+      <publishTime>04/05/2018 17:43:53</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>04/06/2018 16:53:10</publishTime>
+    </File>
+    <File Include="Content/wmjquery.css">
+      <publishTime>04/05/2018 17:43:53</publishTime>
+    </File>
+    <File Include="Controls/ButtonBar.ascx">
+      <publishTime>05/29/2018 21:31:08</publishTime>
+    </File>
+    <File Include="Controls/DropClientes.ascx">
+      <publishTime>04/25/2018 00:28:45</publishTime>
+    </File>
+    <File Include="Controls/DropEquipamentos.ascx">
+      <publishTime>04/25/2018 00:28:45</publishTime>
+    </File>
+    <File Include="Controls/DropTipoDocumento.ascx">
+      <publishTime>04/25/2018 00:28:45</publishTime>
+    </File>
+    <File Include="Controls/DropTipoServico.ascx">
+      <publishTime>04/25/2018 00:28:45</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>04/25/2018 00:28:45</publishTime>
+    </File>
+    <File Include="descarrega.aspx">
+      <publishTime>04/25/2018 00:34:20</publishTime>
+    </File>
+    <File Include="dgClasses.cd">
+      <publishTime>04/25/2018 00:30:28</publishTime>
+    </File>
+    <File Include="erroAcesso.aspx">
+      <publishTime>10/30/2018 23:22:31</publishTime>
+    </File>
+    <File Include="esqueciSenha.aspx">
+      <publishTime>04/25/2018 00:28:45</publishTime>
+    </File>
+    <File Include="faq.aspx">
+      <publishTime>04/25/2018 00:28:45</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>04/05/2018 17:43:53</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.eot">
+      <publishTime>04/05/2018 17:43:54</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.ttf">
+      <publishTime>04/05/2018 17:43:54</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.woff">
+      <publishTime>04/05/2018 17:43:54</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.woff2">
+      <publishTime>04/05/2018 17:43:54</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>04/05/2018 17:43:54</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>04/05/2018 17:43:54</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>04/05/2018 17:43:54</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>04/05/2018 17:43:54</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>04/05/2018 17:43:54</publishTime>
+    </File>
+    <File Include="Imagens/amelia.jpg">
+      <publishTime>04/05/2018 17:43:54</publishTime>
+    </File>
+    <File Include="Imagens/assinatura.png">
+      <publishTime>04/05/2018 17:43:54</publishTime>
+    </File>
+    <File Include="Imagens/carousel1.jpg">
+      <publishTime>04/05/2018 17:43:54</publishTime>
+    </File>
+    <File Include="Imagens/carousel2.jpg">
+      <publishTime>04/05/2018 17:43:54</publishTime>
+    </File>
+    <File Include="Imagens/carousel3.jpg">
+      <publishTime>04/05/2018 17:43:54</publishTime>
+    </File>
+    <File Include="Imagens/carousel4.jpg">
+      <publishTime>04/05/2018 17:43:54</publishTime>
+    </File>
+    <File Include="Imagens/carousel5.jpg">
+      <publishTime>04/05/2018 17:43:54</publishTime>
+    </File>
+    <File Include="Imagens/carousel6.jpg">
+      <publishTime>04/05/2018 17:43:54</publishTime>
+    </File>
+    <File Include="Imagens/duvidaIcon.gif">
+      <publishTime>04/05/2018 17:43:54</publishTime>
+    </File>
+    <File Include="Imagens/historia.jpg">
+      <publishTime>04/05/2018 17:43:55</publishTime>
+    </File>
+    <File Include="Imagens/jquery-wm/clear.gif">
+      <publishTime>04/05/2018 17:43:55</publishTime>
+    </File>
+    <File Include="Imagens/jquery-wm/icons.png">
+      <publishTime>04/05/2018 17:43:55</publishTime>
+    </File>
+    <File Include="Imagens/jquery-wm/jquery.wm.default.icons.png">
+      <publishTime>04/05/2018 17:43:55</publishTime>
+    </File>
+    <File Include="Imagens/logo.ico">
+      <publishTime>04/05/2018 17:43:54</publishTime>
+    </File>
+    <File Include="Imagens/logo.jpg">
+      <publishTime>04/05/2018 17:43:54</publishTime>
+    </File>
+    <File Include="Imagens/logo.png">
+      <publishTime>04/05/2018 17:43:54</publishTime>
+    </File>
+    <File Include="Imagens/logoLion.jpg">
+      <publishTime>04/05/2018 17:43:54</publishTime>
+    </File>
+    <File Include="Imagens/Luiz.jpg">
+      <publishTime>04/05/2018 17:43:54</publishTime>
+    </File>
+    <File Include="Imagens/nuclear1.jpg">
+      <publishTime>04/05/2018 17:43:54</publishTime>
+    </File>
+    <File Include="Imagens/nuclear2.jpg">
+      <publishTime>04/05/2018 17:43:54</publishTime>
+    </File>
+    <File Include="Imagens/nuclear3.jpg">
+      <publishTime>04/05/2018 17:43:54</publishTime>
+    </File>
+    <File Include="Imagens/nuclear4.jpg">
+      <publishTime>04/05/2018 17:43:54</publishTime>
+    </File>
+    <File Include="Imagens/nuclear5.jpg">
+      <publishTime>04/05/2018 17:43:55</publishTime>
+    </File>
+    <File Include="Imagens/pedro.jpg">
+      <publishTime>04/05/2018 17:43:54</publishTime>
+    </File>
+    <File Include="Imagens/radio1.jpg">
+      <publishTime>04/05/2018 17:43:55</publishTime>
+    </File>
+    <File Include="Imagens/radio2.jpg">
+      <publishTime>04/05/2018 17:43:55</publishTime>
+    </File>
+    <File Include="Imagens/radio3.jpg">
+      <publishTime>04/05/2018 17:43:54</publishTime>
+    </File>
+    <File Include="Imagens/radio4.jpg">
+      <publishTime>04/05/2018 17:43:55</publishTime>
+    </File>
+    <File Include="Imagens/radio5.jpg">
+      <publishTime>04/05/2018 17:43:55</publishTime>
+    </File>
+    <File Include="Imagens/renato.jpg">
+      <publishTime>04/05/2018 17:43:55</publishTime>
+    </File>
+    <File Include="medNuclear.aspx">
+      <publishTime>04/25/2018 00:28:46</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>08/08/2018 20:43:14</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>10/30/2018 23:33:04</publishTime>
+    </File>
+    <File Include="radioDiag.aspx">
+      <publishTime>04/25/2018 00:28:48</publishTime>
+    </File>
+    <File Include="rastreioDocumentos.aspx">
+      <publishTime>04/25/2018 00:28:48</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>04/05/2018 17:43:56</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>04/05/2018 17:43:57</publishTime>
+    </File>
+    <File Include="Scripts/file-explore.js">
+      <publishTime>04/05/2018 17:43:57</publishTime>
+    </File>
+    <File Include="Scripts/geral_site.js">
+      <publishTime>07/24/2018 07:10:12</publishTime>
+    </File>
+    <File Include="Scripts/geral_sitev0001.js">
+      <publishTime>10/30/2018 23:08:07</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.1.1.js">
+      <publishTime>04/05/2018 17:43:57</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.1.1.min.js">
+      <publishTime>04/05/2018 17:43:57</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.1.1.min.map">
+      <publishTime>04/05/2018 17:43:57</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.1.1.slim.js">
+      <publishTime>04/05/2018 17:43:57</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.1.1.slim.min.js">
+      <publishTime>04/05/2018 17:43:57</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.1.1.slim.min.map">
+      <publishTime>04/05/2018 17:43:57</publishTime>
+    </File>
+    <File Include="Scripts/jquery.mask.js">
+      <publishTime>04/05/2018 17:43:57</publishTime>
+    </File>
+    <File Include="Scripts/jquery.mask.min.js">
+      <publishTime>04/05/2018 17:43:57</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.8.3.js">
+      <publishTime>04/05/2018 17:43:57</publishTime>
+    </File>
+    <File Include="Scripts/respond.js">
+      <publishTime>04/05/2018 17:43:57</publishTime>
+    </File>
+    <File Include="Scripts/respond.matchmedia.addListener.js">
+      <publishTime>04/05/2018 17:43:57</publishTime>
+    </File>
+    <File Include="Scripts/respond.matchmedia.addListener.min.js">
+      <publishTime>04/05/2018 17:43:57</publishTime>
+    </File>
+    <File Include="Scripts/respond.min.js">
+      <publishTime>04/05/2018 17:43:57</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/DetailsView.js">
+      <publishTime>04/05/2018 17:43:57</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/Focus.js">
+      <publishTime>04/05/2018 17:43:57</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/GridView.js">
+      <publishTime>04/05/2018 17:43:57</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/Menu.js">
+      <publishTime>04/05/2018 17:43:57</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MenuStandards.js">
+      <publishTime>04/05/2018 17:43:57</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjax.js">
+      <publishTime>04/05/2018 17:43:57</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxApplicationServices.js">
+      <publishTime>04/05/2018 17:43:57</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxComponentModel.js">
+      <publishTime>04/05/2018 17:43:58</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxCore.js">
+      <publishTime>04/05/2018 17:43:57</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxGlobalization.js">
+      <publishTime>04/05/2018 17:43:57</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxHistory.js">
+      <publishTime>04/05/2018 17:43:57</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxNetwork.js">
+      <publishTime>04/05/2018 17:43:58</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxSerialization.js">
+      <publishTime>04/05/2018 17:43:57</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxTimer.js">
+      <publishTime>04/05/2018 17:43:57</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxWebForms.js">
+      <publishTime>04/05/2018 17:43:57</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxWebServices.js">
+      <publishTime>04/05/2018 17:43:57</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/SmartNav.js">
+      <publishTime>04/05/2018 17:43:57</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/TreeView.js">
+      <publishTime>04/05/2018 17:43:57</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/WebForms.js">
+      <publishTime>04/05/2018 17:43:57</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/WebParts.js">
+      <publishTime>04/05/2018 17:43:57</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/WebUIValidation.js">
+      <publishTime>04/05/2018 17:43:57</publishTime>
+    </File>
+    <File Include="Scripts/wmjquery.js">
+      <publishTime>04/05/2018 17:43:57</publishTime>
+    </File>
+    <File Include="Scripts/_references.js">
+      <publishTime>10/30/2018 23:22:46</publishTime>
+    </File>
+    <File Include="Site.Master">
+      <publishTime>10/30/2018 23:22:31</publishTime>
+    </File>
+    <File Include="Sobre.aspx">
+      <publishTime>04/25/2018 00:28:49</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/23/2018 22:31:51</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

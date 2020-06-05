@@ -1,0 +1,4 @@
+C:\Users\prog_\Documents\Visual Studio 2015\Projects\RAD\DEV\Gesdoc.Web.Models\bin\Debug\Gesdoc.Web.Models.dll
+C:\Users\prog_\Documents\Visual Studio 2015\Projects\RAD\DEV\Gesdoc.Web.Models\bin\Debug\Gesdoc.Web.Models.pdb
+C:\Users\prog_\Documents\Visual Studio 2015\Projects\RAD\DEV\Gesdoc.Web.Models\obj\Debug\Gesdoc.Web.Models.dll
+C:\Users\prog_\Documents\Visual Studio 2015\Projects\RAD\DEV\Gesdoc.Web.Models\obj\Debug\Gesdoc.Web.Models.pdb

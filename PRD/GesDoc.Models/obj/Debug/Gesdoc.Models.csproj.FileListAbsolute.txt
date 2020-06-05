@@ -1,0 +1,13 @@
+C:\Users\prog_\Documents\Visual Studio 2015\Projects\RAD\DEV\Gesdoc.Web.Models\bin\Debug\Gesdoc.Models.dll
+C:\Users\prog_\Documents\Visual Studio 2015\Projects\RAD\DEV\Gesdoc.Web.Models\bin\Debug\Gesdoc.Models.pdb
+C:\Users\prog_\Documents\Visual Studio 2015\Projects\RAD\DEV\Gesdoc.Web.Models\obj\Debug\Gesdoc.Models.dll
+C:\Users\prog_\Documents\Visual Studio 2015\Projects\RAD\DEV\Gesdoc.Web.Models\obj\Debug\Gesdoc.Models.pdb
+C:\Users\prog_\Documents\Visual Studio 2015\Projects\RAD\DEV\Gesdoc.Models\bin\Debug\Gesdoc.Models.dll
+C:\Users\prog_\Documents\Visual Studio 2015\Projects\RAD\DEV\Gesdoc.Models\bin\Debug\Gesdoc.Models.pdb
+C:\Users\prog_\Documents\Visual Studio 2015\Projects\RAD\DEV\Gesdoc.Models\obj\Debug\Gesdoc.Models.dll
+C:\Users\prog_\Documents\Visual Studio 2015\Projects\RAD\DEV\Gesdoc.Models\obj\Debug\Gesdoc.Models.pdb
+C:\Users\prog_\Documents\Visual Studio 2015\Projects\GesDoc\DEV\Gesdoc.Models\bin\Debug\Gesdoc.Models.dll
+C:\Users\prog_\Documents\Visual Studio 2015\Projects\GesDoc\DEV\Gesdoc.Models\bin\Debug\Gesdoc.Models.pdb
+C:\Users\prog_\Documents\Visual Studio 2015\Projects\GesDoc\DEV\Gesdoc.Models\obj\Debug\Gesdoc.Models.dll
+C:\Users\prog_\Documents\Visual Studio 2015\Projects\GesDoc\DEV\Gesdoc.Models\obj\Debug\Gesdoc.Models.pdb
+C:\Users\prog_\Documents\Visual Studio 2015\Projects\GesDoc\DEV\Gesdoc.Models\obj\Debug\GesDoc.Models.csprojResolveAssemblyReference.cache

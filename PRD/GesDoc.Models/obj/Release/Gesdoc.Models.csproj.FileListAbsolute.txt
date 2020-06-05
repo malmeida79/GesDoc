@@ -1,0 +1,5 @@
+C:\Users\prog_\Documents\Visual Studio 2015\Projects\GesDoc\DEV\Gesdoc.Models\bin\Release\Gesdoc.Models.dll
+C:\Users\prog_\Documents\Visual Studio 2015\Projects\GesDoc\DEV\Gesdoc.Models\bin\Release\Gesdoc.Models.pdb
+C:\Users\prog_\Documents\Visual Studio 2015\Projects\GesDoc\DEV\Gesdoc.Models\obj\Release\Gesdoc.Models.csprojResolveAssemblyReference.cache
+C:\Users\prog_\Documents\Visual Studio 2015\Projects\GesDoc\DEV\Gesdoc.Models\obj\Release\Gesdoc.Models.dll
+C:\Users\prog_\Documents\Visual Studio 2015\Projects\GesDoc\DEV\Gesdoc.Models\obj\Release\Gesdoc.Models.pdb

@@ -1,0 +1,184 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="GesDoc.Web.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %></title>
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="Default.aspx">
+                        <img src="Imagens/logo.jpg" class="img-responsive img-fluid logo" />
+                    </a>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#colapseNavBar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="colapseNavBar">
+                    <ul class="nav navbar-nav navbar-left">
+                        <li class="active">
+                            <a href="Default.aspx">Inicio</a>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" href="#" id="drop01" data-toggle="dropdown">Nossa Empresa
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="sobre.aspx">Quem somos?</a>
+                                </li>
+                                <li>
+                                    <a href="radioDiag.aspx">Radiodiagnóstico</a>
+                                </li>
+                                <li>
+                                    <a href="medNuclear.aspx">Medicina Nuclear</a>
+                                </li>
+                                <li>
+                                    <a href="faq.aspx">Dúvidas Frequentes</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="contato.aspx">Contato</a>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" href="#" id="drop02" data-toggle="dropdown">Documentos
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="rastreioDocumentos.aspx">Rastreio de Documentos</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" href="#" id="drop03" data-toggle="dropdown">Acessar Sistema
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <form class="navbar-form navbar-right">
+                                        <div class="form-group">
+                                            <input type="text" id="txtLogin" class="form-control" placeholder="Login" size="10" />
+                                            <input type="password" id="txtSenha" class="form-control" placeholder="Senha" size="10" />
+                                        </div>
+                                        <button type="button" id="efetuaLogin" class="btn btn-default">Entrar</button>
+                                    </form>
+
+                                </li>
+
+                                <li>
+                                    <a href="esqueciSenha.aspx">Esqueci a senha</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div id="fxTela" class="faixaSobreTela">
+    </div>
+
+    <div id="background-carousel">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Wrapper for carousel items -->
+            <div class="carousel-inner">
+                <div class="item active" style="background-image: url('Imagens/carousel1.jpg')"></div>
+                <div class="item" style="background-image: url('Imagens/carousel2.jpg')"></div>
+                <div class="item" style="background-image: url('Imagens/carousel3.jpg')"></div>
+                <div class="item" style="background-image: url('Imagens/carousel4.jpg')"></div>
+                <div class="item" style="background-image: url('Imagens/carousel5.jpg')"></div>
+                <div class="item" style="background-image: url('Imagens/carousel6.jpg')"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel">:: Application - Notificações ::</h4>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Necessário devido ao carousel de fundo -->
+    <div id="content-wrapper">
+
+        <!-- Corpo da Pagina -->
+        <section class="container">
+            <form runat="server">
+                <asp:ScriptManager runat="server">
+                    <Scripts>
+                        <%--To learn more about bundling scripts in ScriptManager see http://go.microsoft.com/fwlink/?LinkID=301884 --%>
+                        <%--Framework Scripts--%>
+                        <asp:ScriptReference Name="MsAjaxBundle" />
+                        <asp:ScriptReference Name="jquery" />
+                        <asp:ScriptReference Name="bootstrap" />
+                        <asp:ScriptReference Name="respond" />
+                        <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                        <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                        <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                        <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                        <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                        <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                        <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                        <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                        <asp:ScriptReference Name="WebFormsBundle" />
+                        <%--Site Scripts--%>
+                    </Scripts>
+                </asp:ScriptManager>
+                <!-- Area de troca de paginas -->
+                <div class="body-content" style="height: auto;">
+                    <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
+                </div>
+            </form>
+        </section>
+
+        <div class="panel panel-default pannelBtCanto">
+            <div class="panel-body">
+                <a href="Contato.aspx">Solicite um orçamento</a>
+            </div>
+        </div>
+
+        <!-- Rodapé -->
+        <footer class="navbar-default navbar-fixed-bottom rodape">
+            <div class="container-fluid">
+                <address>
+                    Rad Dimenstein e Associados - Excelência em Proteção Radiológica - Desde 1997 
+                    <br />
+                    <span class="glyphicon glyphicon-map-marker"></span>&nbsp;Rua Cardeal Arcoverde, 1749 - cj. 57B - Pinheiros - São Paulo - SP                    
+                    <br />
+                    <span class="glyphicon glyphicon-earphone"></span>&nbsp;(11) 3885-6329 / 3884-7538
+                </address>
+            </div>
+        </footer>
+
+        <script type="text/javascript" src="/Scripts/geral_sitev0001.js"></script>
+
+    </div>
+</body>
+</html>

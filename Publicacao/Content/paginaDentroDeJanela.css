@@ -1,0 +1,13 @@
+﻿        .navbar {
+            display: none;
+        }
+
+        .navbar-default {
+            display: none;
+        }
+
+        .container {
+            margin-top: 0;
+            margin-left: 0;
+            height: 100%;
+        }

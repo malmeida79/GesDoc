@@ -1,0 +1,460 @@
+﻿* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.logo {
+    height: 60px;
+}
+
+.minhaLogo {
+    float: left;
+    margin-left: 15px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    width: 80px;
+    /*height: 79px;*/
+}
+
+.navbar {
+    min-height: 60px;
+}
+
+.navbar-brand {
+    padding: 0 15px;
+    height: 60px;
+    line-height: 60px;
+}
+
+.navbar-toggle {
+    /* (80px - button height 34px) / 2 = 23px */
+    margin-top: 13px;
+    padding: 9px 10px !important;
+}
+
+#background-carousel {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+.carousel,
+.carousel-inner {
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    overflow: hidden;
+}
+
+#myModal, #myConfirmModal {
+    text-align: left;
+}
+
+#frmGeral {
+    text-align: center;
+}
+
+.grids {
+    text-align: left;
+}
+
+/* Para file manager */
+.file-tree {
+    background-color: white;
+    border: 1px solid black;
+    text-align: left;
+    width: 40%;
+}
+
+/* carousel */
+.item {
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+    z-index: 0;
+}
+
+/* Pagina Default */
+.pannelControle {
+    box-shadow: 0 0 1em #000, inset 0 0 .5em #FFF;
+    margin-top: 50%;
+    background-color: #715439;
+    border-radius: 20px;
+}
+
+.pannelPlano {
+    box-shadow: 0 0 1em #000, inset 0 0 .5em #FFF;
+    margin-top: 50%;
+    background-color: #715439;
+    border-radius: 20px;
+}
+
+.pannelControle, .pannelPlano {
+    position: relative;
+    color: white;
+    opacity: 0.8;
+}
+
+.pannelControle, .pannelPlano {
+    position: relative;
+    color: white;
+    opacity: 0.8;
+}
+
+/* Master page (Geral do site) */
+#content-wrapper {
+    position: absolute;
+    z-index: 1 !important;
+    min-width: 100%;
+    /*/min-height: calc(100%-300px);*/
+    overflow: hidden;
+}
+
+.rodape {
+    box-shadow: 0 0 1em #000, inset 0 0 .5em #FFF;
+    background-color: #EE7D00;
+    border-top: 3px solid white;
+    /* Padding: Top Right Botton Left*/
+    padding: 7px 0 0 10px;
+    color: white;
+}
+
+/* Demais paginas do site */
+.mensagensEntrada {
+    /*style="display: inline-block; width: 950px; text-align: left;"*/
+    margin: auto;
+    width: 50%;
+}
+
+.tblConteudoTab {
+    width: 100%;
+    border: solid #666 1px;
+}
+
+.tblConteudoChkList {
+    width: 40%;
+    margin: auto;
+}
+
+.tblUpload {
+    margin: auto;
+}
+
+.tblConteudoForms {
+    width: 90%;
+    margin: auto;
+}
+
+.cellRight {
+    width: 50%;
+    text-align: right;
+}
+
+.cellLeft {
+    width: 50%;
+    text-align: left;
+}
+
+.cellCenter {
+    width: 50%;
+    text-align: center;
+}
+
+.corpoPaginas {
+    margin-top: 5%;
+    text-align: justify;
+    margin-bottom: 170px;
+}
+
+.corpoPaginaSobre {
+    margin-top: 5%;
+    text-align: justify;
+    margin-bottom: 170px;
+}
+
+.imgPrcSobre {
+    padding: 2px 2px 2px 2px;
+}
+
+.corpoPaginas h4 {
+    text-align: left;
+    color: #EE7D00;
+}
+
+.corpoPaginaSobre h4 {
+    text-align: left;
+    color: #EE7D00;
+}
+
+.imgRDDiag, .imgNuc {
+    width: 100%;
+    padding: 1px 1px 5px 1%;
+}
+
+.txtrdDiag, .txtNuc, .txtMapa {
+    padding: 5px 20px 5px 20px;
+}
+
+.corpoPaginaContato {
+    margin-top: 5%;
+    text-align: justify;
+    margin-bottom: 170px;
+}
+
+.contato {
+    background-color: #EE7D00;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 0 30px 7px;
+    width: 70%;
+}
+
+.mapa {
+    border: 0;
+    width: 400px;
+    height: 350px;
+}
+
+.duvidasIco {
+    width: 25px;
+    cursor: pointer;
+    display: inline;
+}
+
+#corpoPagina {
+    margin-top: 25px;
+}
+
+.faixaSobreTelaInterna {
+    box-shadow: 0 0 1em #000, inset 0 0 .5em #FFF;
+    text-align: center;
+    margin-top: -11px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    width: 100%;
+    color: #fff;
+    z-index: 50;
+    font-size: large;
+    background-color: dimgrey;
+    opacity: .7;
+    left: 0;
+    position:fixed;
+}
+
+.faixaSobreTela {
+    box-shadow: 0 0 1em #000, inset 0 0 .5em #FFF;
+    margin-top: 77px;
+    padding-left: 5px;
+    width: 100%;
+    color: white;
+    z-index: 50;
+    font-size: x-large;
+    background-color: #F90;
+    opacity: .7;
+    left: 0;
+}
+
+.containerInterno {
+    background-image: linear-gradient(to bottom,#e98c47 10%,#d0d0d0 95%,#000);
+    padding-top: 10px;
+    padding-bottom: 50px;
+    position: fixed;
+    margin-top: 81px;
+    width: 100%;
+    height: 80%;
+    background-color: #d0d0d0;
+    overflow: auto;
+}
+
+.bodyInterno {
+    background-color: black;
+}
+
+.rodapeInterno {
+    /* box-shadow: 0 0 1em #000, inset 0 0 .5em #FFF;*/
+    text-align: left;
+    background-color: black;
+    padding: 5px 0 5px 0;
+    color: white;
+    /*border-top: 4px solid dimgray;*/
+}
+
+.well {
+    opacity: 0.85;
+}
+
+.tabInitial {
+    display: block;
+    padding: 4px 18px 4px 18px;
+    float: left;
+    background: url("../Images/InitialImage.png") no-repeat right top;
+    background-color: #FFA500;
+    color: Black;
+    font-weight: bold;
+}
+
+    .tabInitial:hover {
+        color: White;
+        background: url("../Images/SelectedButton.png") no-repeat right top;
+        background-color: #EEE8AA;
+    }
+
+.tabClicked {
+    float: left;
+    display: block;
+    background: url("../Images/SelectedButton.png") no-repeat right top;
+    padding: 4px 18px 4px 18px;
+    color: Black;
+    background-color: #000000;
+    font-weight: bold;
+    color: White;
+}
+
+
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: 0;
+}
+
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="select"] {
+    max-width: 280px;
+}
+
+
+.pannelBtCanto {
+    /*
+        Relative: Relativo a posição do Objeto.
+        Absolute: Posiciona em relação a tela, se a mesma mexer
+                 em uma rolagem ele ficará onde esta.
+        Fixed: fixo não importa se a tela mexe.
+    */
+    box-shadow: 0 0 1em #000, inset 0 0 .5em #FFF;
+    position: fixed;
+    right: 100px;
+    bottom: 50px;
+    z-index: 1100;
+    border: 2px solid WHITE;
+    background-color: #F90;
+    color: white;
+    text-decoration: none;
+}
+
+    .pannelBtCanto a:hover {
+        color: yellow;
+        text-decoration: none;
+    }
+
+.cosnsultadocumentos {
+    box-shadow: 0 0 1em #000, inset 0 0 0.5em #fff;
+    Height: 450px;
+    Width: 650px;
+    text-align: left;
+    background-color: goldenrod;
+    border: 5px double orange;
+    color: white;
+    margin-left: 50%;
+    transform: translate(-50%,0);
+}
+
+.selecionaCliente {
+    box-shadow: 0 0 1em #000, inset 0 0 0.5em #fff;
+    background-color: #c1c1c1;
+    border: 4px double #ffa500;
+    width: 50%;
+    height: 200px;
+    padding: 50px 50px 50px 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav > li > a {
+        /* (80px - line-height of 27px) / 2 = 26.5px */
+        padding-top: 26.5px;
+        padding-bottom: 26.5px;
+        line-height: 27px;
+    }
+}
+
+/* Micro ajustes com media queries */
+@media screen and (min-width: 748px) and (max-width: 1082px) {
+    .pannelControle {
+        margin-top: 25%;
+    }
+
+    .pannelPlano {
+        margin-top: 25%;
+    }
+
+    .pannelBtCanto {
+        right: 14px;
+        bottom: 53px;
+    }
+
+    .containerInterno {
+        margin-top: 138px;
+        height: 68%;
+    }
+}
+
+@media (max-width:748px) {
+
+    .faixaSobreTela {
+        margin-top: 60px;
+    }
+
+    .pannelControle {
+        margin-top: 50%;
+    }
+
+    .pannelPlano {
+        margin-top: 25%;
+    }
+
+    .contato {
+        background-color: #EE7D00;
+        border-radius: 10px;
+        color: white;
+        padding: 5px 0 30px 7px;
+        width: 100%;
+    }
+
+    .rodape {
+        /* Padding: Top Right Botton Left*/
+        padding: 20px 0 0 5px;
+    }
+
+    .containerInterno {
+        margin-top: 113px;
+        height: 70%;
+    }
+}
+
+@media (max-width:410px) {
+
+    .containerInterno {
+        margin-top: 113px;
+        height: 70%;
+    }
+
+    .pannelBtCanto {
+        right: 14px;
+        bottom: 107px;
+    }
+}
